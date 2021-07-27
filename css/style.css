@@ -57,7 +57,11 @@ html.active {
 .headerInner .mainNav > ul > li .subNav li a:hover {
   background-color: #eee;
 }
-
+@media screen and(min-width: 768px) {
+  .overlay {
+    opacity: 0;
+  }
+}
 @media screen and (max-width: 767px) {
   header {
     overflow-x: hidden;
